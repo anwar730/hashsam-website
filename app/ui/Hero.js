@@ -39,8 +39,8 @@ export default function Hero() {
           </p>
           <div
             data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="700"
+            data-aos-duration="1000"
+            data-aos-delay="400"
             className="flex justify-center lg:justify-start space-x-4"
           >
             <button className="px-6 py-3 bg-teal-600 text-white rounded-lg shadow hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105">
