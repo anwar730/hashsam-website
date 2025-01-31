@@ -20,9 +20,9 @@ export default function Services() {
   return (
     <section className="overflow-hidden py-12 mb-24 px-4 sm:px-6 md:px-8 lg:px-12">
       <div data-aos="fade-up" className="text-center">
-        <h1 className="text-4xl lg:text-5xl font-light">
-          Our <span className="font-bold text-teal-500">Services</span>
-        </h1>
+      <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-teal-500 mb-6">
+            <span className="font-thin text-black">Our </span>Services
+          </h1>
         <p className="mt-6 text-sm font-medium text-gray-600 max-w-2xl mx-auto">
           We leverage technology to enhance healthcare and pharmacy operations, ensuring efficiency and accessibility.
         </p>
