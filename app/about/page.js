@@ -2,10 +2,15 @@ import React from 'react';
 import Image from 'next/image';
 import PurposeSection from '../ui/ExtendedAbout';
 
+export const metadata = {
+  title: "About us",
+  description: "Get to know Klinikum",
+};
+
 export default function About() {
   return (
     <>
-    <div className="max-w-screen-2xl container mx-auto relative h-[700px] flex justify-center text-white">
+    <div className="hero2 max-w-screen-2xl container mx-auto relative h-[700px] flex justify-center text-white">
       {/* Background Image */}
       <div className="">
         <Image
@@ -13,13 +18,13 @@ export default function About() {
           alt="Hero Background"
           layout="fill"
           objectFit="cover"
-          className="brightness-80" // Darken the image for better text contrast
+          className="brightness-100 md:brightness-60" // Darken the image for better text contrast
         />
       </div>
 
       {/* Content */}
-      <div className="relative mt-32 md:mt-36 text-center max-w-4xl px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+      <div className="hero2 relative mt-24 md:mt-36 text-center max-w-4xl px-4">
+        <h1 className=" text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
           Committed to Our Region and Its Patients
         </h1>
         <p className="text-md md:text-xl lg:text-2xl font-light text-gray-50 pt-6">
