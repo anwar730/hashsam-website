@@ -65,13 +65,15 @@ export default function PurposeSection() {
           data-aos-duration="1000"
           data-aos-offset="200" // Offset for better visibility on mobile
         >
+          <div className="w-full flex justify-center md:justify-start">
           <Image
-            src="/vision.png" // Replace with your image path
-            alt="Our Vision"
+            src="/vision23.jpg" // Replace with your image path
+            alt="Our Purpose"
             width={300}
             height={300}
-            className="rounded-sm"
+            className="rounded-full"
           />
+        </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import { merriweatherSans } from '@/app/ui/fonts';
 import "./globals.css";
 import Navbar from './ui/Navbar';
 import Footer from './ui/Footer';
+import ScrollToTopButton from './ui/scroll';
 
 
 // export const metadata = {
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
        className={ merriweatherSans.className }
       >
         <Navbar />
+        <ScrollToTopButton />
         <main className="flex-1">
             {children}
           </main>

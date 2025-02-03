@@ -41,7 +41,7 @@ export default function Services() {
             <IoEarthOutline className="text-teal-500 text-4xl" />
           </div>
           <h3 className="text-xl font-semibold text-gray-800">
-            Global Health Solutions
+            Digital Health Solutions
           </h3>
           <p className="mt-4 text-sm lg:text-lg text-gray-600">
             We specialize in Health Management Information Systems (HMIS) and Telemedicine, enabling seamless digital health services and efficient patient data management.

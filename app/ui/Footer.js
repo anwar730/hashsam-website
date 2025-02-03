@@ -7,7 +7,7 @@ export default function Footer() {
       data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
-      className="bg-teal-600 text-white rounded-3xl container mx-auto mt-36"
+      className="bg-teal-600 text-white rounded-3xl max-w-screen-xl container mx-auto mt-36"
     >
       {/* Aesthetic CTA Section */}
       <div
@@ -52,10 +52,10 @@ export default function Footer() {
         <div data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200">
           <h3 className="text-lg font-semibold mb-4">Navigation</h3>
           <ul className="text-gray-100 font-light">
+            <li className="py-2">Home</li>
             <li className="py-2">About</li>
-            <li className="py-2">Blog</li>
-            <li className="py-2">Careers</li>
-            <li className="py-2">Contact</li>
+            <li className="py-2">HealthCare Solutions</li>
+            <li className="py-2">Pharmacy Solutions</li>
           </ul>
         </div>
 

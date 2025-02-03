@@ -8,7 +8,7 @@ export default function WhoWeAre() {
         {/* Image Section */}
         <div className="w-5/6 md:w-1/2 overflow-hidden rounded-tl-[100px]">
           <Image
-            src="/doc.jpg" // Replace with actual image path
+            src="/Leonardo_Kino_XL_female_black_doctor_smiling_2 (1).jpg" // Replace with actual image path
             alt="Klinikum team working together"
             width={500}
             height={500}

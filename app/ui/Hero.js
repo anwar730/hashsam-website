@@ -1,4 +1,14 @@
+'use client'
+
 export default function Hero() {
+  const handleScroll = (e, targetId) => {
+    e.preventDefault();
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      closeMenu(); // Close the menu after navigation
+    }
+  };
   return (
     <section
       className="hero2 overflow-hidden"
@@ -34,8 +44,7 @@ export default function Hero() {
             data-aos-delay="500"
             className="lg:w-1/2 text-lg"
           >
-            Transforming lives with cutting-edge telemedicine and innovative
-            pharmaceutical solutions. Your health, our priority.
+            Transforming lives with innovative and digital health solutions. Your health, our priority.
           </p>
           <div
             data-aos="fade-up"
@@ -43,9 +52,10 @@ export default function Hero() {
             data-aos-delay="400"
             className="flex justify-center lg:justify-start space-x-4"
           >
+            <a href="#services" onClick={(e) => handleScroll(e, "services")} >
             <button className="px-6 py-3 bg-teal-600 text-white rounded-lg shadow hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105">
-              Explore Healthcare
-            </button>
+              Learn more
+            </button></a>
           </div>
         </div>
       </div>

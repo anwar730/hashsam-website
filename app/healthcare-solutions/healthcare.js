@@ -22,7 +22,7 @@ export default function Healthcare() {
         {/* Image on the Left */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-start">
           <Image
-            src="/Leonardo_Kino_XL_A_doctor_using_hmis_3.jpg" // Replace with your image path
+            src="/Leonardo_Kino_XL_black_doctor_operating_hmis_0.jpg" // Replace with your image path
             alt="Our Purpose"
             width={300}
             height={300}
@@ -71,7 +71,7 @@ export default function Healthcare() {
           className="w-full md:w-1/4 flex justify-center"
         >
           <Image
-            src="/Leonardo_Kino_XL_patient_smiling_while_there_is_a_laptop_infro_1.jpg" // Replace with your image path
+            src="/Leonardo_Kino_XL_black_patient_smiling_while_there_is_a_laptop_1.jpg" // Replace with your image path
             alt="Our Vision"
             width={300}
             height={300}
