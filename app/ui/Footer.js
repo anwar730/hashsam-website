@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
@@ -37,35 +38,37 @@ export default function Footer() {
         {/* Headquarters */}
         <div data-aos="fade-up" data-aos-duration="1000">
           <h3 className="text-lg font-semibold mb-4">Headquarters</h3>
-          <p className="text-gray-100 font-light">1775 William Flood</p>
-          <p className="text-gray-100 py-2 font-light">Harold, Kenya</p>
+          <p className="text-gray-100 font-light">The Ark Place</p>
+          <p className="text-gray-100 py-2 font-light">Nairobi, Kenya</p>
         </div>
 
         {/* Contact */}
         <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <p className="text-gray-100 font-light">1 704-21 99.57 760</p>
-          <p className="text-gray-100 py-2 font-light">E-Mail@eljewa.edu</p>
+          <p className="text-gray-100 font-light">+254-792 830 455</p>
+          <p className="text-gray-100 py-2 font-light">klinikumenquiries@gmail.com</p>
         </div>
 
         {/* Navigation */}
         <div data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200">
           <h3 className="text-lg font-semibold mb-4">Navigation</h3>
-          <ul className="text-gray-100 font-light">
-            <li className="py-2">Home</li>
-            <li className="py-2">About</li>
-            <li className="py-2">HealthCare Solutions</li>
-            <li className="py-2">Pharmacy Solutions</li>
-          </ul>
+          <div className="text-gray-100 font-light flex flex-col">
+            <Link href="/" className="py-2">Home</Link>
+            <Link href="/about" className="py-2">About</Link>
+            <Link href="/healthcare-solutions" className="py-2">HealthCare Solutions</Link>
+            <Link href="/pharmacy-solutions" className="py-2">Pharmacy Solutions</Link>
+          </div>
         </div>
 
         {/* Privacy */}
         <div data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">
           <h3 className="text-lg font-semibold mb-4">Privacy</h3>
-          <ul className="text-gray-100 font-light">
-            <li>Terms and Conditions</li>
-            <li className="py-2">Cookie Preferences</li>
-          </ul>
+          <div className="text-gray-100 font-light flex flex-col">
+            <Link
+                  href="/">Terms and Conditions</Link>
+            <Link
+                  href="/" className="py-2">Cookie Preferences</Link>
+          </div>
         </div>
       </footer>
 
@@ -82,7 +85,7 @@ export default function Footer() {
         <p className="text-gray-200">© 2025 Klinikum™. All Rights Reserved.</p>
         
         {/* Social Media Icons */}
-        <div className="flex space-x-6">
+        {/* <div className="flex space-x-6">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="text-white text-2xl hover:text-teal-300" />
           </a>
@@ -92,7 +95,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn className="text-white text-2xl hover:text-teal-300" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
