@@ -38,15 +38,15 @@ export default function Footer() {
         {/* Headquarters */}
         <div data-aos="fade-up" data-aos-duration="1000">
           <h3 className="text-lg font-semibold mb-4">Headquarters</h3>
-          <p className="text-gray-100 font-light">The Ark Place</p>
+          <p className="text-gray-100 font-light">Eastleigh</p>
           <p className="text-gray-100 py-2 font-light">Nairobi, Kenya</p>
         </div>
 
         {/* Contact */}
         <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
-          <p className="text-gray-100 font-light">+254-792 830 455</p>
-          <p className="text-gray-100 py-2 font-light">klinikumenquiries@gmail.com</p>
+          <p className="text-gray-100 font-light">+254-726 581 436</p>
+          <p className="text-gray-100 py-2 font-light">hashsam@gmail.com</p>
         </div>
 
         {/* Navigation */}
@@ -80,9 +80,9 @@ export default function Footer() {
         className="flex justify-center items-center space-y-4 flex-col pb-24 mt-4"
       >
         <a href="#home">
-          <Image alt="logo" src="/Green and Blue Minimalist Pharmacy Logo (3).svg" width={180} height={60} />
+          <h1 width={180} height={60} >HashSam Medical Center</h1>
         </a>
-        <p className="text-gray-200">© 2025 Klinikum™. All Rights Reserved.</p>
+        <p className="text-gray-200">© 2025 HashSam™. All Rights Reserved.</p>
         
         {/* Social Media Icons */}
         {/* <div className="flex space-x-6">

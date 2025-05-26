@@ -21,7 +21,7 @@ function Navbar() {
       <div className="max-w-screen-xl container py-2 mx-auto px-4 md:py-4 flex justify-between items-center">
         {/* Brand Logo */}
         <a href={`/`}>
-          <Image
+          {/* <Image
             alt="logo"
             src={
               pathname === "/"
@@ -31,7 +31,8 @@ function Navbar() {
             width={180}
             height={60}
             className="w-[130px] h-[60px] sm:w-[100px] sm:h-[60px] md:w-[180px] md:h-[60px]"
-          />
+          /> */}
+          <h1>HashSam Medical Center</h1>
         </a>
 
         {/* Desktop Navigation */}

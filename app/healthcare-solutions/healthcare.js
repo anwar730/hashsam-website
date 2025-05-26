@@ -61,7 +61,7 @@ export default function Healthcare() {
             Telemedicine
           </h2>
           <p className="text-md font-thin md:text-xl lg:text-xl text-gray-600">
-            Klinikum’s Telemedicine platform revolutionizes healthcare by providing remote consultations, real-time medical support, and seamless patient care. Our goal is to enhance access to quality healthcare across Africa, ensuring affordability, convenience, and improved health outcomes through digital innovation.
+            HashSam's Telemedicine platform revolutionizes healthcare by providing remote consultations, real-time medical support, and seamless patient care. Our goal is to enhance access to quality healthcare across Africa, ensuring affordability, convenience, and improved health outcomes through digital innovation.
           </p>
         </div>
 

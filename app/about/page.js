@@ -28,7 +28,7 @@ export default function About() {
           Committed to Our Region and Its Patients
         </h1>
         <p className="text-md md:text-xl lg:text-2xl font-light text-gray-50 pt-6">
-          <strong>Klinikum </strong> is a trusted leader in delivering high-quality healthcare solutions, specializing in the distribution of innovative pharmaceuticals, biosimilars, and advanced medical treatments.
+          <strong>HashSam Medical Center </strong> is a trusted leader in delivering high-quality healthcare solutions, specializing in the distribution of innovative pharmaceuticals, biosimilars, and advanced medical treatments.
         </p>
       </div>
 

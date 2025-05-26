@@ -22,7 +22,7 @@ export default function WhoWeAre() {
             From Local Care to Global Impact
           </h2>
           <p className="mt-4 text-sm md:text-lg text-gray-700 leading-relaxed max-w-prose">
-            At Klinikum Health Care, we are redefining the future of healthcare by bridging innovation and compassion. From telemedicine solutions to efficient hospital management systems, our mission is to empower healthcare providers and enhance patient outcomes worldwide.
+            At HashSam Medical Center, we are redefining the future of healthcare by bridging innovation and compassion. From telemedicine solutions to efficient hospital management systems, our mission is to empower healthcare providers and enhance patient outcomes worldwide.
           </p>
         </div>
       </div>

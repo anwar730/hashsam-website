@@ -28,7 +28,7 @@ export default function PharmacySolutions() {
             Biosimilars
           </h1>
           <p className="text-md font-thin md:text-xl lg:text-xl text-gray-600">
-            Klinikum is committed to expanding access to high-quality, cost-effective biosimilars, providing patients with safe and affordable alternatives to biologic treatments. Through innovation and advanced healthcare solutions, we enhance patient well-being and improve treatment accessibility for individuals and families across our region.
+            HashSam Medical Center is committed to expanding access to high-quality, cost-effective biosimilars, providing patients with safe and affordable alternatives to biologic treatments. Through innovation and advanced healthcare solutions, we enhance patient well-being and improve treatment accessibility for individuals and families across our region.
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function PharmacySolutions() {
             Complex Generics
           </h2>
           <p className="text-md font-thin md:text-xl lg:text-xl text-gray-600">
-            Klinikum is dedicated to improving healthcare access through high-quality, cost-effective complex generics. By providing advanced, affordable treatment options, we enhance patient outcomes and ensure more individuals and families across Africa receive the medications they need. Our commitment to innovation and affordability helps bridge critical healthcare gaps, empowering healthier communities.
+            HashSam Medical Center is dedicated to improving healthcare access through high-quality, cost-effective complex generics. By providing advanced, affordable treatment options, we enhance patient outcomes and ensure more individuals and families across Africa receive the medications they need. Our commitment to innovation and affordability helps bridge critical healthcare gaps, empowering healthier communities.
           </p>
         </div>
 
